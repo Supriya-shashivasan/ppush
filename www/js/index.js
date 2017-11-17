@@ -85,5 +85,13 @@ var app = {
                 'Ok'                  // buttonName
             );
        });
+
+        navigator.notification.alert(
+                "HI",         // message
+                null,                 // callback
+                "CHUPIYA",           // title
+                'Ok'                  // buttonName
+            );
+
     }
 };
